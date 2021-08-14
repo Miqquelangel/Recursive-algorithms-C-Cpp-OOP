@@ -1,5 +1,3 @@
-// Udemy.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
-//
 
 #include <iostream>
 #include <stdio.h>
@@ -125,7 +123,7 @@ public:
         }
     }
 
-    int toh(int n, int a, int b, int c)
+    int tower_of_hanoi(int n, int a, int b, int c)
     {
         
         static int s = 0;
