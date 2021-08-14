@@ -1,4 +1,4 @@
-# Recursive-algorithms-C-C-OOP
+# Recursive algorithms C / C++ OOP
 #include <iostream>
 #include <stdio.h>
 using std::cout;
