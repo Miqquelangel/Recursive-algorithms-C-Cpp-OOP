@@ -123,7 +123,7 @@ public:
         }
     }
 
-    int toh(int n, int a, int b, int c)
+    int tower_of_hanoi(int n, int a, int b, int c)
     {
         
         static int s = 0;
@@ -138,19 +138,7 @@ public:
         return s;
     }
 
-    void tohh(int n, int a, int b, int c)
-    {
-
-        
-        if (n > 0)
-        {
-            toh(n - 1, a, c, b);
-            printf("from (%d to %d\n)",a,c);
-            toh(n - 1, b, a, c);
-        }
-
-    }
-
+ 
     int ncr_pascal(int x, int r)
     {
         if (x == r || r==0)
